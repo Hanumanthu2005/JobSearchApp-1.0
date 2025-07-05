@@ -1,0 +1,61 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Optional logo animation, if still used */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .App-logo {
+    animation: none;
+  }
+}
+
+.App-header {
+  background-color: #1976d2; /* MUI Primary Color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.App-link {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+/* Keyframe for rotating logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
